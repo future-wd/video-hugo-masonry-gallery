@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        {{ partial "title" . }}
+        <div class="py-3">{{ .Content | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,33 @@
+baseURL: http://localhost/
+# Disable taxonomy pages (disables categories and tags folders)
+disableKinds:
+- taxonomy
+- taxonomyTerm
+# for xml output
+languageCode: "en-au"
+# for website
+defaultContentLanguage: "en-au"
+languages:
+  en-au:
+    weight: 1
+title: My New Hugo Site
+# alternate copyright company text
+copyright: Web Design Inc.
+# controls number of pages displayed on list pages
+paginate: 5
+# controls the summary length on list pages
+summaryLength: 7
+
+# menu links via config file
+menu:
+  main:
+  - name: Github
+    url: http://www.github.com/
+    weight: 90
+    params:
+      blank: true
+  - name: Google
+    url: http://www.google.com/
+    weight: 100
+    params:
+      blank: true

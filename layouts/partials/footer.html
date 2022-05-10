@@ -1,0 +1,7 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col bg-dark text-white p-3">
+      Copyright &copy; <span id="js-year"><noscript>{{ now.Format "2006" }}</noscript></span> {{ with .Site.Copyright }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}
+    </div>
+  </div>
+</div>
